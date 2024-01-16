@@ -25,6 +25,7 @@ export default async function Dashboard() {
       <section className="container space-y-2">
         <h2 className="font-bold">All Files</h2>
         <div>
+          {/* Pre loader */}
           <TableWrapper skeletonFiles={skeletonFiles} />
         </div>
       </section>
